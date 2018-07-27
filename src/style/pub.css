@@ -1,0 +1,102 @@
+[v-cloak] {
+  display: none !important;
+}
+
+.router-view {
+  width: 100%;
+}
+
+body {
+  background-color: #fbf9fe;
+}
+
+html, body, .custom_warp {
+  /*height: 100%;*/
+  width: 100%;
+  /*overflow: auto;*/
+  margin: 0;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.hidden-x {
+  overflow-x: hidden;
+}
+
+body * {
+  font-size: 14px;
+}
+
+/*   header字体大小  */
+.vux-header .vux-header-title > span {
+  font-size: 18px;
+}
+
+/*  footer字体大小  */
+.weui-tabbar__label span {
+  font-size: 10px;
+}
+
+.nofound .weui-tabbar__label span {
+  font-size: 16px;
+}
+
+/*  List标题字体大小 */
+.weui-media-box__title {
+  font-size: 14px !important;
+}
+
+/* better-scroll滚动插件设置 */
+.wrapper, .content {
+  overflow: hidden;
+}
+
+.content {
+  min-height: calc(100% + 1px);
+}
+
+/*  文字一行省略 */
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fridges_new p {
+  font-size: 15px;
+  text-indent: 2em;
+  color: #333;
+}
+
+/* 部分颜色 */
+.color_blue {
+  color: #409eff;
+}
+
+/* 刷新按钮 页面加载数据失败时弹窗取消后出现的按钮*/
+.refer_button {
+  text-align: center;
+  padding: 30px 0;
+  color: #409eff;
+}
+
+/*暂无数据样式*/
+.no_data {
+  display: block;
+  width: 260px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 640px) {
+  html, body {
+    font-size: 20.31px;
+  }
+}
+
+@media only screen and (max-width: 640px) and (min-width: 414px) {
+  html, body {
+    font-size: 17.664px;
+  }
+}
